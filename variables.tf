@@ -27,7 +27,7 @@ variable "security_groups" {
 
 variable "subnet_id" {
   description = "The subnet ID for the EC2 instance"
-  default     = "subnet-0d30831e689de9d9b" 
+  default     = "subnet-04a78e57127e60a4e" 
 }
 
 variable "tags" {
