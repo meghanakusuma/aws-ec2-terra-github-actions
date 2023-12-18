@@ -1,6 +1,6 @@
 variable "ami" {
   description = "EC2 instance AMI ID"
-  default     = "ami-0287a05f0ef0e9d9a"  
+  default     = "ami-0fc5d935ebf8bc3bc"  
 }
 
 variable "instance_type" {
