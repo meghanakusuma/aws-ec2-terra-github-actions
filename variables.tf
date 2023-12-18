@@ -11,12 +11,12 @@ variable "instance_type" {
 variable "availability_zone" {
   description = "The availability zone for the EC2 instance."
   type        = string
-  default     = "ap-south-1a"  
+  default     = "us-east-1d"  
 }
 
 variable "key_name" {
   description = "EC2 instance key pair name"
-  default     = "jpass"  
+  default     = "jenkins"  
 }
 
 variable "security_groups" {
@@ -27,13 +27,13 @@ variable "security_groups" {
 
 variable "subnet_id" {
   description = "The subnet ID for the EC2 instance"
-  default     = "subnet-0e1e12286b0be59b8" 
+  default     = "subnet-0d30831e689de9d9b" 
 }
 
 variable "tags" {
   type    = map(string)
   default = {
-    Name        = "TF-Instance-prash"
-    Environment = "DevPrash"
+    Name        = "meghana"
+    Environment = "meghana"
   }
 }
